@@ -1,13 +1,6 @@
-<h1>Show list from API Data in Angular</h1>
-<table border="1">
-     <tr>
-         <th>Id</th>
-         <th>Title</th>
-         <th>User Id</th>
-     </tr>
-     <tr *ngFor="let item of data">
-         <td>{{item.id}}</td>
-         <td>{{item.title}}</td>
-         <td>{{item.userId}}</td>
-     </tr>
-</table>
+<h1>Routing Concepts</h1>
+<a routerLink="user">User</a>
+<br><br>
+<a routerLink="admin">Admin</a>
+<br><br>
+<router-outlet></router-outlet>
